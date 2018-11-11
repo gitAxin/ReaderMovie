@@ -1,9 +1,9 @@
 <!-- wxml是编写小程序骨架的文件 -->
 <!-- <div> -->
 <view class="container">
-  <image class="user-avatar" src="/images/5.png" ></image>
-  <text class="user-name"><text style="color:red;">Hel \n lo</text>, World</text>
-  <view class='moto-container'>
+  <image class="user-avatar" src="/images/avatar/03.png" ></image>
+  <text class="user-name">阿信技术频道</text>
+  <view class='moto-container'bindtap="enterApplication">
     <text class="moto">开启小程序之旅</text>
   </view>
 </view>
